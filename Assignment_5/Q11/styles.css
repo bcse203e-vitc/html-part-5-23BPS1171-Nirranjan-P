@@ -1,0 +1,27 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Box Styling */
+  .box {
+    width: 20vw; /* Fixed width in percentages of viewport width */
+    height: 20vh; /* Fixed height in percentages of viewport height */
+    padding: 5%; /* Padding in percentage */
+    margin: 10%; /* Margin in percentage */
+    background-color: #3498db;
+    border: 5px solid #2980b9; /* Initial border color and thickness */
+    transition: border 0.3s ease; /* Smooth transition for border change */
+  }
+  
+  /* Box Border Hover Effect */
+  .box:hover {
+    border: 10px solid #e74c3c; /* Change border color to red and thickness on hover */
+  }
+  
