@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sticky Navigation Bar */
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Change link appearance on hover */
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Active Section Highlight */
+  nav ul li a:focus {
+    background-color: #fdcb6e;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  /* Section Styles */
+  section {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #section1 {
+    background-color: #74b9ff;
+  }
+  
+  #section2 {
+    background-color: #fd79a8;
+  }
+  
+  #section3 {
+    background-color: #55efc4;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
