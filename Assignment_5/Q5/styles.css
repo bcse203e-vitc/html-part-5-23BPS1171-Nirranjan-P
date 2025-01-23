@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Gradient Background Button */
+  .gradient-button {
+    background: linear-gradient(45deg, #ff6b6b, #f9ca24);
+    color: white;
+    border: none;
+  }
+  
+  .gradient-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Border Color Change on Hover */
+  .hover-border-button {
+    background: white;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .hover-border-button:hover {
+    border-color: #3498db;
+    color: #3498db;
+  }
+  
+  /* Glowing Effect Button */
+  .glow-button {
+    background: #6c5ce7;
+    color: white;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.7);
+  }
+  
