@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Screen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loading-screen">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content" id="main-content">
+    <h1>Welcome to the Website!</h1>
+    <p>This is the main content that will appear after the loading screen.</p>
+  </div>
+
+  <script>
+    // Display the loading screen for 3 seconds, then hide it and show the main content
+    setTimeout(function() {
+      document.getElementById('loading-screen').style.display = 'none';
+      document.getElementById('main-content').style.display = 'block';
+    }, 3000);
+  </script>
+
+</body>
+</html>
