@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #6c5ce7, #74b9ff);
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Animated Title */
+  .animated-title {
+    font-size: 2.5rem;
+    margin: 0;
+    animation: textColorChange 5s infinite, textMove 5s infinite alternate;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #fdcb6e;
+    transform: scale(1.2);
+  }
+  
+  /* Keyframes for Title Animation */
+  @keyframes textColorChange {
+    0% {
+      color: #ff6b6b;
+    }
+    50% {
+      color: #f9ca24;
+    }
+    100% {
+      color: #00cec9;
+    }
+  }
+  
+  @keyframes textMove {
+    0% {
+      transform:
+  
